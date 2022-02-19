@@ -2,7 +2,7 @@ $(document).ready(function () {
     $("#btn-login").click(function () {
         var usermail = $("#usermail").val();
         var userpass = $("#userpass").val();
-        var check = /^([a-zA-Z0-9\-\_\.]){1,}\@(gmail.com)$/;
+        var check = /^([a-zA-Z0-9\-\_\.]){1,}\@(ves.ac.in)$/;
         if (usermail == "") {
             $("#usermail").focus();
             $("#usermail").addClass("is-invalid");
